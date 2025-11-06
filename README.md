@@ -38,28 +38,35 @@ A full-stack web application for managing and analyzing personal expenses — bu
 
 ---
 
-## 📂 Project Structure  
+## Project Structure
 
-
----
-
-## 🏗️ Project Structure  
-
+```
 expense-tracker/
 ├── backend/
-│   ├── server.py          # FastAPI server
-│   ├── db_helper.py       # Database operations
-│   └── logging_setup.py   # Logger configuration
+│   ├── server.py
+│   ├── db_helper.py
+│   └── logging_setup.py
 ├── frontend/
-│   ├── app.py             # Main Streamlit app
-│   ├── add_update_ui.py   # Expense entry UI
-│   └── analytics_ui.py    # Analytics UI
+│   ├── app.py
+│   ├── add_update_ui.py
+│   └── analytics_ui.py
 ├── tests/
-│   └── test_db_helper.py  # Unit tests
+│   └── test_db_helper.py
+├── requirements.txt
 └── README.md
+```
 
+### File Descriptions
+- **backend/server.py**: FastAPI server with all API endpoints
+- **backend/db_helper.py**: Database connection and CRUD operations  
+- **backend/logging_setup.py**: Logger configuration and setup
+- **frontend/app.py**: Main Streamlit application with tab navigation
+- **frontend/add_update_ui.py**: UI for adding and updating expenses
+- **frontend/analytics_ui.py**: Analytics dashboard with charts
+- **tests/test_db_helper.py**: Unit tests for database functions
+- **requirements.txt**: Python package dependencies
+- **README.md**: Project documentation (this file)
 
----
 
 ## ⚙️ Installation & Setup  
 
